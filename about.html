@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> EasyLive </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/d9cc224c49.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav id="navBar" class="navbar-white">
+            <a href="index.html">
+                <img src="images/logoother.png" class="logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="listing.html">Accommodations</a></li>
+                <li><a href="house.html">Packages</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+            </ul>
+            <a href="#" class="register-btn"> Register Now </a>
+            <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+        </nav>
+
+        <div class="about-section">
+            <h1>About Us Page</h1>
+            <p>We are the Students of Computer Systems Engineering, as a Final Year Project,
+                we have created this website. This actually provide the functionality of aggregating 
+               multiple accomodations into the website to develop the local business and serve the 
+               people who are fond of visiting and exploring new and different cities. Website is an 
+               online platform that will enlighten local entrepreneurs and grow small businesses with 
+               hotels and homes by providing full stack technology that will improve earnings and will 
+               make the easy operations to be done. Bringing affordable and trusted accommodation that 
+               users can book instantly. Visitors or the souls that come from outside at some new places 
+               to live in will be served with easy services in affordable cost which will be helpful for 
+               each and every one who is suffering from live-in problems by paying expensive bills at every 
+               month, so keeping the rang in view one can easily book suitable flat or hotel room according 
+               to the need for own self or family.</p>
+          </div>
+          
+          <h2 style="text-align:center">Our Team</h2>
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="images/picss2.jpg" alt="Jane" style="width:100%">
+                <div class="container">
+                  <h2>Love Sharma</h2>
+                  <p class="title">Group Leader</p>
+                  <p>Final Year Student of Computer Systems Engineering</p>
+                  <p>lovesharma0345@gmail.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="column">
+              <div class="card">
+                <img src="images/picss2.jpg" alt="Mike" style="width:100%">
+                <div class="container">
+                  <h2>Rahool Leelwani</h2>
+                  <p class="title">Art Director</p>
+                  <p>Final Year Student of Computer Systems Engineering</p>
+                  <p>rahoolkumar@gmail.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="column">
+              <div class="card">
+                <img src="images/pics1.png" alt="John" style="width:100%">
+                <div class="container">
+                  <h2>Memoona Noonari</h2>
+                  <p class="title">Designer</p>
+                  <p>Final Year Student of Computer Systems Engineering</p>
+                  <p>memoona11@gmail.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="container">
+            <div class="footer">
+                <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+                <hr>
+                <p>copyright @ 2022, F18CS-35,41,48 FYP</p>
+            </div>
+        </div>
+        <script>
+            var navBar = document.getElementById("navBar");
+
+            function togglebtn(){
+                navBar.classList.toggle("hidemenu"); 
+            }
+        </script>
+    </body>
+</html>
